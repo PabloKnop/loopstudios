@@ -1,0 +1,16 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 15px;
+}
+
+:root{
+  --cor0: hsl(0, 0%, 100%);
+  --cor1: hsl(0, 0%, 55%);
+  --cor2: hsl(0, 0%, 41%); 
+  --cor3: hsl(0, 0%, 0%);
+}
+
