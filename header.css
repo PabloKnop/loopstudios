@@ -1,18 +1,27 @@
 .header-container{
   background-image: url(img/imagens/image-hero.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 850px;
+  background-position: top center;
 }
 
 header{
   margin: 0 auto;
-  max-width: 1440px;
-  padding: 40px 20px;
+  max-width: 1640px;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  display: grid;
+  align-content: start;
+  gap: 120px;
+}
+
+@media (max-width: 600px){
+
 }
 
 header nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
@@ -25,7 +34,8 @@ header ul{
 
 
 header ul li{
- transition: 0.75s;
+ transition: 0.5s;
+ padding: 10px;
 }
 
 header ul li:hover{
@@ -37,3 +47,22 @@ header ul li a {
   text-decoration: none;
 }
 
+.immersive {
+  display: grid;
+  place-content: end;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  flex: 1;
+  padding: 10px 20px;
+  font-size: 2rem;
+}
+
+
+.immersive h1 {
+  border: 1px solid black;
+  justify-content: start;
+}
+
+@media (max-width: 600px){
+
+}
