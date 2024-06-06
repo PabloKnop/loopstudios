@@ -1,4 +1,39 @@
 .header-container{
-  background-color: aqua;
-  height: 800px;
+  background-image: url(img/imagens/image-hero.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 850px;
 }
+
+header{
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 40px 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+header ul{
+  display: flex;
+  gap: 10px;
+}
+
+
+header ul li{
+ transition: 0.75s;
+}
+
+header ul li:hover{
+transform: rotate(360deg);
+}
+
+header ul li a {
+  color: var(--cor0);
+  text-decoration: none;
+}
+
