@@ -23,3 +23,9 @@ li {
 .font1 {
   font: 400 1.125rem/1.35 "Alata", sans-serif;
 }
+
+.font1-grande {
+  font: 300 4rem/1.125 "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  color: var(--cor0);
+}
