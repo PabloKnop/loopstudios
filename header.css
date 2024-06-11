@@ -5,6 +5,10 @@
   background-position: top center;
 }
 
+#menu-button{
+  display: none;
+}
+
 header{
   margin: 0 auto;
   max-width: 1640px;
@@ -15,15 +19,12 @@ header{
   gap: 120px;
 }
 
-@media (max-width: 600px){
-
-}
 
 header nav {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr auto;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   gap: 50px;
 }
 
@@ -49,20 +50,58 @@ header ul li a {
 
 .immersive {
   display: grid;
-  place-content: end;
+  place-content: start;
   box-sizing: border-box;
   text-transform: uppercase;
   flex: 1;
-  padding: 10px 20px;
   font-size: 2rem;
+  margin-bottom: 300px;
 }
 
 
 .immersive h1 {
-  border: 1px solid black;
-  justify-content: start;
+  border: 2px solid white; 
+  padding: 30px 40px;
+  max-width: 24ch;
+}
+
+
+
+@media (max-width: 1000px){
+  .immersive {
+    border: none;
+    margin-bottom: 150px;
+  }
+  .immersive h1 {
+    border: none; 
+    padding: 0px;
+    max-width: 20ch;
+  }
+  header{
+    gap: 60px;
+  }
+}
+
+
+@media (max-width: 750px){
+  .immersive {
+    margin-bottom: 100px;
+  }
+  header nav {
+    gap: 50px;
+  }
+  #menu{
+    display: none;
+  }
+
+  #menu-button{
+    display: initial;
+    align-self: center;
+  }
 }
 
 @media (max-width: 600px){
-
+  .immersive {
+    margin-bottom: 0px;
+  }
 }

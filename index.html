@@ -16,7 +16,8 @@
         <picture>
           <img src="img/icon/logo.svg" alt="logo" width="192px" height="32px">
         </picture>
-        <ul class="font1">
+        <button id="menu-button">&#9776;</button>
+        <ul class="font1" id="menu">
           <li><a href="http://">About</a></li>
           <li><a href="http://">Careers</a></li>
           <li><a href="http://">Events</a></li>
@@ -25,10 +26,25 @@
         </ul>
       </nav>
       <div class="immersive">
-        <h1>immersive experiences <br> that deliver</h1>
+        <h1 class="font1-grande">immersive <br> experiences that deliver</h1>
       </div>
     </header>
   </div>
 </body>
+<script>
+
+  var menuButton = document.getElementById("menu-button");
+  var menu = document.getElementById("menu");
+
+  menuButton.addEventListener("click", function() {
+    if (menu.style.display === "block") {
+      menu.style.display = "none";
+    } else {
+      menu.style.display = "block";
+    } else {
+      menu.style.display = "initial";
+    }
+  });
+</script>
 
 </html>
