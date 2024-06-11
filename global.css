@@ -29,6 +29,18 @@ li {
   color: var(--cor0);
 }
 
+.font1-medio {
+  font: 300 2rem/1.125 "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  color: var(black);
+}
+
+
+
+
+
+
+
 #menu-button{
   background-image: url("img/icon/hamb2.svg");
   background-repeat: no-repeat;
