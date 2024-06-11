@@ -70,12 +70,14 @@ header ul li a {
 @media (max-width: 1000px){
   .immersive {
     border: none;
-    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
   .immersive h1 {
     border: none; 
     padding: 0px;
     max-width: 20ch;
+
   }
   header{
     gap: 60px;
@@ -85,13 +87,21 @@ header ul li a {
 
 @media (max-width: 750px){
   .immersive {
+    margin-top: 0px;
     margin-bottom: 100px;
   }
+
   header nav {
-    gap: 50px;
+    gap: 30px;
   }
+
   #menu{
     display: none;
+  }
+  
+  #menu li {
+    padding: 0px;
+    margin: 10px 0px;
   }
 
   #menu-button{

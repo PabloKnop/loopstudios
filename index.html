@@ -16,7 +16,7 @@
         <picture>
           <img src="img/icon/logo.svg" alt="logo" width="192px" height="32px">
         </picture>
-        <button id="menu-button">&#9776;</button>
+        <button id="menu-button"></button>
         <ul class="font1" id="menu">
           <li><a href="http://">About</a></li>
           <li><a href="http://">Careers</a></li>
@@ -36,15 +36,14 @@
   var menuButton = document.getElementById("menu-button");
   var menu = document.getElementById("menu");
 
-  menuButton.addEventListener("click", function() {
+  menuButton.addEventListener("click", function () {
     if (menu.style.display === "block") {
       menu.style.display = "none";
     } else {
       menu.style.display = "block";
-    } else {
-      menu.style.display = "initial";
     }
   });
+
 </script>
 
 </html>

@@ -28,3 +28,19 @@ li {
   text-transform: uppercase;
   color: var(--cor0);
 }
+
+#menu-button{
+  background-image: url("img/icon/hamb2.svg");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: 0.25s;
+  border: none;
+}
+
+#menu-button:hover{
+transform: translate(-2px, -2px);
+background-image: url("img/icon/hamb2grande.svg");
+}
