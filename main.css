@@ -1,13 +1,14 @@
 main {
   margin: 0 auto;
   max-width: 1640px;
-  padding: 60px 20px;
+  padding: 60px 20px 0px 20px;
 }
 
 .principal {
   display: grid;
   grid-template-columns: auto 1fr;
   position: relative;
+  margin-bottom: 300px;
 }
 
 #interactive img {
@@ -19,10 +20,45 @@ main {
 }
 
 #interactive-text{
-  padding: 100px;
+  padding: 100px 40px 40px 100px;
   position: absolute;
   left: 500px;
-  bottom: 10px;
+  bottom: 0px;
   background-color: white;
 }
 
+#interactive-text h1{
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 1200px){
+  .principal {
+    position: unset;
+  }
+  
+  #interactive-text{
+   position: unset;
+   text-align: center;
+   padding: 50px;
+   } 
+
+}
+
+@media (max-width: 800px){
+  .principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  } 
+}
+
+
+@media (max-width: 750px){
+  .principal {
+    grid-template-columns: 1fr; 
+  }
+}
+
+@media (max-width: 600px){
+
+}

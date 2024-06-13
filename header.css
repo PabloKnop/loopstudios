@@ -3,6 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+  margin-bottom: 200px;
 }
 
 #menu-button{
@@ -67,6 +68,15 @@ header ul li a {
 
 
 
+
+@media (max-width: 1400px){
+  .immersive {
+    margin-bottom: 200px;
+  }
+} 
+
+
+
 @media (max-width: 1000px){
   .immersive {
     border: none;
@@ -81,6 +91,10 @@ header ul li a {
   }
   header{
     gap: 60px;
+  }
+
+  .header-container{
+    margin-bottom: 100px;
   }
 }
 
