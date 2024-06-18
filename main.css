@@ -35,6 +35,7 @@ main {
 @media (max-width: 1200px){
   .principal {
     position: unset;
+    margin-bottom: 200px;
   }
   
   #interactive-text{
@@ -43,12 +44,14 @@ main {
    padding: 50px;
    } 
 
+
 }
 
 @media (max-width: 800px){
   .principal {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
   } 
 }
 
