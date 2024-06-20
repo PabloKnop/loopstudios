@@ -31,6 +31,9 @@ main {
   margin-bottom: 10px;
 }
 
+#interactive-text p{
+ max-width: 85ch;
+}
 
 @media (max-width: 1200px){
   .principal {

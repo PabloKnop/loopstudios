@@ -39,13 +39,17 @@ li {
   color: var(black);
 }
 
+.font1-pequena {
+  font: 400 1.5rem/1.1 "Josefin Sans", sans-serif;
+}
+
 
 .font2-media {
   font: 400 1.125rem/1.35 "Alata", sans-serif;
 }
 
 .font2-pequena {
-  font: 400 0.875rem/1.428 "Alata", sans-serif;
+  font: 400 0.900rem/1.428 "Alata", sans-serif;
 }
 
 
