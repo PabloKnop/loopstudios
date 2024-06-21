@@ -26,3 +26,25 @@
   color: white;
 }
 
+@media (max-width: 650px){
+
+  .creation-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 20px;
+   }
+
+   .botao-mobile{
+    margin-top: 20px;
+  }
+   #botao-mobile{
+    display: flex;
+    justify-content: center;
+   }
+   
+    
+  
+  
+}
