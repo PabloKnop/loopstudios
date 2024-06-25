@@ -68,4 +68,8 @@ text-decoration: none;
 .footer-conteudo h3{
   justify-self: center;
 }
+
+.footer-conteudo h4{
+ text-align: center;
+}
 }
