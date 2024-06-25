@@ -66,5 +66,7 @@ main {
 }
 
 @media (max-width: 600px){
-
+  #interactive-text h1{
+    font-size: 2rem;
+  }
 }
